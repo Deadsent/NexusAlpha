@@ -1,24 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 27, in script
-    e "You've created a new Ren'Py game."
-Exception: Sayer 'e' is not defined.
+  File "renpy/common/00start.rpy", line 213, in script
+    python hide:
+  File "renpy/common/00start.rpy", line 213, in <module>
+    python hide:
+  File "renpy/common/00start.rpy", line 214, in _execute_python_hide
+    renpy.warp.warp()
+Exception: Could not find a statement to warp to. (stats.rpy:1)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 27, in script
-    e "You've created a new Ren'Py game."
-  File "E:\Gaming\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
-    Say.execute(self)
-  File "E:\Gaming\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "E:\Gaming\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'e' is not defined.
+  File "renpy/common/00start.rpy", line 213, in script
+    python hide:
+  File "/home/deadsent/Desktop/RenPy/renpy-8.2.1-sdk/renpy/ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/deadsent/Desktop/RenPy/renpy-8.2.1-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 213, in <module>
+    python hide:
+  File "renpy/common/00start.rpy", line 214, in _execute_python_hide
+    renpy.warp.warp()
+  File "/home/deadsent/Desktop/RenPy/renpy-8.2.1-sdk/renpy/warp.py", line 144, in warp
+    raise Exception("Could not find a statement to warp to. ({})".format(spec))
+Exception: Could not find a statement to warp to. (stats.rpy:1)
 
-Windows-10-10.0.19043 AMD64
+Linux-6.2.0-35-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.2.1.24030407
 NexusAlpha 1.0
-Thu May 23 11:15:11 2024
+Tue May 28 16:55:21 2024

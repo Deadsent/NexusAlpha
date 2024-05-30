@@ -1,5 +1,5 @@
 define A = Character("Antimony", image = "antimony")
-define a = Character ("Aaliyah", image = "aaliyah")
+define a = Character ("Aaliya", image = "aaliya")
 define D = Character("Diana", image = "diana")
 define d = Character("Devah", image = "devah")
 define e = Character("Epoc", image = "epoc")
@@ -9,6 +9,8 @@ define n = Character("Nexus Alpha", image = "nexus_alpha")
 define r = Character("Reefdancer", image = "reefdancer")
 define w = Character("Wardog", image = "wardog")
 define mc = Character("[name]")
+define q = Character("???")
+define y = Character("You")
 
 default mc_piloting = 1
 default mc_physique = 1

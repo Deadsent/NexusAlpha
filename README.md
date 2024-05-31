@@ -10,12 +10,12 @@ Nexus Alpha is an erotic lesbian dating sim game created using Ren'Py based on t
     - Diana
     - Epoc
     - Antimony
-    - Aaliyah
+    - Aaliya
     - Hex
     - Devah
     - Nexus Alpha
-    - Reefdancer
-    - Wardog
+    - Reefdancer?
+    - Cerberus?
    
 - Backgrounds
   - Hanger

@@ -1,18 +1,1 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/characters.rpy", line 35: expected statement.
-    mc_physique_counter += 1
-                        ^
-
-File "game/characters.rpy", line 39: expected statement.
-    mc_physique_counter = 0
-                        ^
-
-File "game/characters.rpy", line 40: expected statement.
-    mc_physique += 1
-                ^
-
-Ren'Py Version: Ren'Py 8.2.1.24030407
-Tue May 28 19:46:02 2024
+﻿
